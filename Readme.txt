@@ -10,3 +10,5 @@ First Commit
 -> Create a new function to add the soft skills in html 
 --> Modify HTML to acept JSON hardskill format
 --> Include a funtion in main.js to load the hardskills in html
+// Na inclusao da expirience, foi escrita uma tag diferente da vinculada no html
+Sendo necessario entrar com o debugger
