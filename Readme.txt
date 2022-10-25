@@ -6,3 +6,4 @@ First Commit
 -> Configure the HTML content and Tags
 -> Configure the JSON to Match the tags in html
 -> Modify the main.js to update the html with json's info
+-- Look at developers tool's cache to virify the update
