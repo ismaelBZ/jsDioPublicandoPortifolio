@@ -8,3 +8,5 @@ First Commit
 -> Modify the main.js to update the html with json's info
 -- Look at developers tool's cache to virify the update
 -> Create a new function to add the soft skills in html 
+--> Modify HTML to acept JSON hardskill format
+--> Include a funtion in main.js to load the hardskills in html

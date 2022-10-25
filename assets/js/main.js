@@ -20,12 +20,19 @@ function updateProfileInfo(profileData) {
 }
 
 function updateSoftSkills(profileData) {
-    const softSkills = document.getElementById(`profile.skills.softSkills`)
-    softSkills.innerHTML = profileData.skills.softSkills.map(skill => `<li>${skill}</li>`).join(``) //transfou o JSON list a skill depois transformou em string
+    const softSkills = document.getElementById(`profile.skills.softSkills`);
+    softSkills.innerHTML = profileData.skills.softSkills.map(skill => `<li>${skill}</li>`).join(''); //transfou o JSON list a skill depois transformou em string
+}
+
+function updateHardSkills(profileData) {
+    const hardSkills = document.getElementById(`profile.skills.hardSkills`);
+    hardSkills.innerHTML = profileData.skills.hardSkills.map(skill => `<ul><li><img src="${skill.logo}" alt="${skill.name}" name=${skill.name} /></li></ul>`).join('');
+
 }
 
 (async () => {
     const profileData = await fetchProfileData();
-    updateProfileInfo(profileData)
-    updateSoftSkills(profileData)
+    updateProfileInfo(profileData);
+    updateSoftSkills(profileData);
+    updateHardSkills(profileData);
 })();
