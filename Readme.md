@@ -1,14 +1,28 @@
-First Commit
+# Portfólio
 
--> Create API = js/api.js
--> Create main = is/main.js
--> Add the scripts in HTML
--> Configure the HTML content and Tags
--> Configure the JSON to Match the tags in html
--> Modify the main.js to update the html with json's info
--- Look at developers tool's cache to virify the update
--> Create a new function to add the soft skills in html 
---> Modify HTML to acept JSON hardskill format
---> Include a funtion in main.js to load the hardskills in html
-// Na inclusao da expirience, foi escrita uma tag diferente da vinculada no html
-Sendo necessario entrar com o debugger
+## Principais Desafios
+
+- Fundamentos do JavaScript;
+- Aplicação do JavaScript na Web;
+- Consumo de Api's;
+
+## Linguagens Utilizadas
+
+- HTML5;
+- CSS3;
+- JavaScript;
+
+## O que Aprendi
+
+Foi meu primeiro contato com uma requisição fetch() e como os dados dessa requisição são manipulados e exibidos para o usuário. Também tive meu primeiro contato com programação assíncrona.
+
+
+## Author
+
+- LinkedIN - [/ismaelbetzoletti](https://www.linkedin.com/in/ismaelbetzoletti/)
+- Portfólio - [Ismael Bet Zoletti](https://ismaelbz.github.io/portfolio/)
+
+## Agradecimentos
+
+Primeiro a Deus, pois sem ele, não estaria aqui. Em segundo, minha mãe e meu pai, os quais são meu suporte mais forte e certamente não há palavras para descrever quão incríveis são. Finalmente a dio, e seus professores, que proporcionaram um conteúdo incrível e com tanto aprendizado.
+
